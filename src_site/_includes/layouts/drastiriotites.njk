@@ -1,0 +1,31 @@
+---
+layout: page.njk
+permalink: "/drastiriotites/{{title | transliterate}}/index.html"
+---
+<div class="inner">
+  <section class="post">
+    <header class="major">
+      <span class="date">
+        📅 <time datetime="{{ page.date | htmlDateString }}" itemprop="datePublished"> {{ page.date | readableDate }} </time>
+      </span>
+
+      <h1>{{ title }}</h1>
+
+      {%- if (image) -%}
+      <img loading="lazy" src="{{image}}" alt="{{imageAlt}}" loading="lazy"/>
+      {%- endif -%}
+
+      <p>{{ custom_excerpt }}</p>
+    </header>
+
+      <article class="articleBody"> 
+        {{ layoutContent | safe }}
+
+        {%- if (attachment) -%}
+        <object data="/assets/uploads/images/{{attachment}}" height="1100px" style="width: 100%;min-height: 100%;"></object>
+        {%- endif -%}
+        
+      </article>
+    <hr>
+  </section>
+</div>

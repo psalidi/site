@@ -1,0 +1,40 @@
+@import '_variables';
+@import 'naf-css/src/base';
+@import 'naf-css/src/forms/button.pcss';
+
+a:focus,
+a:hover {
+  background-color: var(--primary);
+  color: var(--primary-lighter);
+}
+
+.button {
+  text-decoration: none !important;
+}
+
+body {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+
+.wrapper {
+  max-width: 100rem;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.inner {
+  max-width: 86ch;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+a[href^='mailto:']:before {
+  content: '' !important;
+}
+
+.inner {
+  max-width: 85ch;
+  margin-left: auto;
+  margin-right: auto;
+}

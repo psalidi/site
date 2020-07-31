@@ -1,0 +1,28 @@
+{
+  "items": [
+    {
+      "text": "Αρχική",
+      "url": "/"
+    },
+    {
+      "text": "Δραστηριότητες",
+      "url": "/drastiriotites/"
+    },
+    {
+      "text": "Έγγραφα",
+      "url": "/eggrafa/"
+    },
+    {
+      "text": "Καταστατικό Συλλόγου",
+      "url": "/syllogos/"
+    },
+    {
+      "text": "Φωτογραφίες",
+      "url": "/fotografies/"
+    },
+    {
+      "text": "Επικοινωνία",
+      "url": "/contact/"
+    }
+  ]
+}
