@@ -172,6 +172,7 @@ collections: # A list of collections the CMS should be able to edit
           - {label: 'Site Url', name: 'url', widget: 'string'}
           - {label: 'Author Name', name: 'authorName', widget: 'string'}
           - {label: 'Author Email Address', name: 'authorEmail', widget: 'string'}
+
       - label: 'Navigation'
         name: 'nav'
         delete: false
