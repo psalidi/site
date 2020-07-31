@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="el">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Description" content="{{description}}">
+    <title>Σύλλογος Ζωοδόχος Πηγή {% if title %} ◦ {{title}}{% endif %} </title>
+    <style>{{ 'css/vars.css' | inlineCss | safe }}</style>
+    <style>{{ 'css/base.css' | inlineCss | safe }}</style>
+    <style>{{ 'css/toggler.css' | inlineCss | safe }}</style>
+    <script>this.customElements||document.write('<script src="//unpkg.com/document-register-element"><\x2fscript>');</script>
+    <script src="/js/toggler.esm.js" type=module defer></script>
+    <script src="/js/toggler.es5.js" nomodule defer></script>
+  </head>
+
+  <body>
+    {% include "nav.njk" %}
+
+    {{ layoutContent | safe }}
+  </body>
+
+</html>

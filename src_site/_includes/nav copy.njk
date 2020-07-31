@@ -1,0 +1,39 @@
+<style>{{ 'css/nav.css' | inlineCss | safe }}</style>
+<header>
+<dark-light-switch default="true" 
+    text-on="Ναι"
+    text-off="Οχι"
+    text-legend="Σκούρο μοτίβο:"></dark-light-switch>
+  <div class="burger">
+    <span></span>
+  </div>
+  <nav class="navbar main">
+    <ul class="nav-links">
+      <li class="nav-item"><a href="/">Αρχική</a></li>
+      <li class="nav-item"><a href="/ekdiloseis/">Εκδηλώσεις</a></li>
+      <li class="nav-item"><a href="/drastiriotites/">Δραστηριότητες</a></li>
+      <li class="nav-item"><a href="/dimosieymata/">Δημοσιεύματα</a></li>
+      <li class="nav-item"><a href="/eggrafa/">Έγγραφα</a></li>
+      <li class="nav-item"><a href="/syllogos/">Σύλλογος</a></li>
+      <li class="nav-item"><a href="/apo-ypiresies/">Από υπηρεσίες</a></li>
+      <li class="nav-item"><a href="/pros-ypiresies/">Προς υπηρεσίες</a></li>
+      <li class="nav-item"></li>
+    </ul>
+  </nav>
+
+  <div class="overlay"></div>
+</header>
+<script>
+(() => {
+const burgerElement = document.querySelector('.burger');
+const overlayElement = document.querySelector('.overlay');
+function onClick(ev) {
+  burgerElement.classList.toggle('clicked');
+  overlayElement.classList.toggle('show');
+  document.querySelector('.navbar').classList.toggle('show');
+  document.querySelector('body').classList.toggle('overflow');
+}
+document.querySelector('.burger').addEventListener('click', onClick)
+document.querySelector('.overlay').addEventListener('click', onClick)
+})();
+</script>

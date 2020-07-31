@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="el">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Description" content="{{description}}">
+    <title>Σύλλογος Ζωοδόχος Πηγή {% if title %} ◦ {{title}}{% endif %} </title>
+    <link href="/assets/css/base.min.css" rel="stylesheet" />
+    <link href="/assets/css/components/header.min.css" rel="stylesheet" />
+    <link href="/assets/css/components/nav.min.css" rel="stylesheet" />
+    <link href="/assets/css/components/intro.min.css" rel="stylesheet" />
+    <link href="/assets/css/components/list.min.css" rel="stylesheet" />
+    <link href="/assets/css/components/footer.min.css" rel="stylesheet" />
+    <script type="module" src="/assets/js/menu.min.js"></script>
+  </head>
+  <body>
+
+    {% include "header.njk" %}
+
+    <main>
+      <div class="wrapper">
+        {{ layoutContent | safe }}
+      </div>
+    </main>
+    <footer class="main">
+        <div class="items">Εξωραϊστικός Σύλλογος ΖΩΟΔΟΧΟΣ ΠΗΓΗ</div>
+        <div class="items">Copyright Ⓒ2020  Created with <a href="https://11ty.dev">11ty</a>
+        </div>
+    </footer>
+    <!-- <script type="module">if ("serviceWorker" in navigator) { window.addEventListener("load", () => { navigator.serviceWorker.register("/sw.min.js"); }); }</script> -->
+  </body>
+</html>

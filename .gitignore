@@ -1,0 +1,8 @@
+node_modules
+assets
+live
+
+.vscode
+
+# Local Netlify folder
+.netlify

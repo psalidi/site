@@ -1,0 +1,17 @@
+---
+layout: base.njk
+title: Φωτογραφίες
+permalink: "/fotografies/index.html"
+---
+
+{% set css %}
+  {% include "../assets/css/components/fotografies.min.css" %}
+{% endset %}
+<style>
+  {{ css | cssmin | safe }}
+</style>
+<script type="module" src="/assets/js/instagram.min.js"></script>
+
+<h2>Από Instagram</h2>
+
+<div id="instagram-photos" class="instagram-photos"></div>

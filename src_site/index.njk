@@ -1,0 +1,88 @@
+---
+layout: base.njk
+---
+{% set listview %}
+  {% include "../assets/css/components/listview.min.css" %}
+{% endset %}
+{% set slider %}
+  {% include "../assets/css/components/slider.min.css" %}
+{% endset %}
+{% set leaf %}
+  {% include "../assets/css/components/leaflet.min.css" %}
+{% endset %}
+<style>
+  {{ listview | cssmin | safe }}
+  {{ slider | cssmin | safe }}
+  {{ leaf | cssmin | safe }}
+</style>
+
+
+<script type="module" src="/assets/js/slider.min.js"></script>
+
+<script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"
+  integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew=="
+  crossorigin=""></script>
+
+<section class="cols-2">
+  <div class="content">
+    <header>
+      <h1>ΖΩΟΔΟΧΟΣ ΠΗΓΗ</h1>
+    </header>
+    <p>Ο Σύλλογός μας έχει πλούσια ιστορία μιας και δραστηριοποιείται στην περιοχή από το 1959. Στην πολυετή πορεία του, ασχολήθηκε με τα μεγάλα προβλήματα που αντιμετωπίζουν οι περιοχές, οι οποίες εντάσσονται στο σχέδιο πόλεως, χωρίς προηγουμένως να έχει ληφθεί μέριμνα από την πολιτεία, ώστε να έχουν κατασκευαστεί οι απαραίτητες υποδομές</p>
+    <p></p>
+    <a href="/syllogos/" class="button">Περισσοτερα</a>
+  </div>
+  <span class="image object">
+    <custom-slider id="ideal-image-slider" class="image" style="margin-top: 2rem">
+      <img data-src="/assets/slider/1.jpg" alt="Slide 1" />
+      <img data-src="/assets/slider/2.jpg" alt="Slide 2" />
+      <img data-src="/assets/slider/3.jpg" alt="Slide 4" />
+    </custom-slider>
+  </span>
+</section>
+
+{% set postslist = collections.drastiriotites | head(-4) %}
+  <header class="g-center">
+    <h2 class="g-center">Πρόσφατα δημοσιεύματα</h2>
+  </header>
+  <div class="posts">
+  {%- for latest in postslist | reverse -%}
+    <article class="box">
+      <a href="{{ latest.url }}" title="{{ latest.data.title }}" class="image">
+        {%- if (latest.data.image) -%}
+          <img loading="lazy" data-src="{{ latest.data.image }}" alt={{latest.data.imageAlt}}/>
+        {%- endif -%}
+      </a>
+      <time class="postlist-date" datetime="{{ latest.data.date | htmlDateString }}">{{ latest.data.date | readableDate }}</time>
+      <h3>
+        <a href="{{ latest.url }}" title="{{ latest.data.title }}" class="image">{{ latest.data.title }}</a>
+      </h3>
+      <p>{{latest.data.description}}</p>
+    </article>
+{%- endfor -%}
+  </div>
+</section>
+
+<div id="map" style="height: 360px; border: 1px solid #AAA;"></div>
+
+  <leaflet-map
+    longitude="23.78997"
+    latitude="38.04762"
+    zoom="19">
+  </leaflet-map>
+
+<script>
+//https://www.openstreetmap.org/?mlat=38.04762&mlon=23.78997#map=17/38.04762/23.78997&layers=CN
+var map = L.map( 'map', {
+  center: [38.04762, 23.78997],
+  minZoom: 10,
+  zoom: 19,
+
+})
+
+L.tileLayer( 'http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
+  subdomains: ['a', 'b', 'c']
+}).addTo( map )
+
+</script>

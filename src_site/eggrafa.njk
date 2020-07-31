@@ -1,0 +1,32 @@
+---
+layout: base.njk
+title: Εγγραφα
+---
+{% set listview %}
+  {% include "../assets/css/components/listview.min.css" %}
+{% endset %}
+<style>
+  {{ listview | cssmin | safe }}
+</style>
+
+{% set postslist = collections.eggrafa | reverse %}
+  <header class="g-center">
+    <h2 class="g-center">Έγγραφα</h2>
+  </header>
+  <div class="posts">
+  {%- for latest in postslist -%}
+    <article class="box">
+      <a href="{{ latest.url }}" title="{{ latest.data.title }}" class="image">
+        {%- if (latest.data.image) -%}
+          <img loading="lazy" src="{{ latest.data.image }}" alt={{latest.data.imageAlt}}/>
+        {%- endif -%}
+      </a>
+      <time class="postlist-date" datetime="{{ latest.data.date | htmlDateString }}">{{ latest.data.date | readableDate }}</time>
+      <h3>
+        <a href="{{ latest.url }}" title="{{ latest.data.title }}" class="image">{{ latest.data.title }}</a>
+      </h3>
+      <p>{{latest.data.description}}</p>
+    </article>
+{%- endfor -%}
+  </div>
+</section>

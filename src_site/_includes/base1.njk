@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="el">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Description" content="{{description}}">
+    <title>Σύλλογος Ζωοδόχος Πηγή {% if title %} ◦ {{title}}{% endif %} </title>
+    <link href="/assets/css/css.css" rel="stylesheet" />
+    <script defer src="/assets/js/jquery.min.js"></script>
+    <script defer src="/assets/js/browser.min.js"></script>
+    <script defer src="/assets/js/breakpoints.min.js"></script>
+    <script defer src="/assets/js/util.js"></script>
+    <script defer src="/assets/js/main.js"></script>
+  </head>
+
+  <body class="is-preload">
+
+    <!-- Wrapper -->
+      <div id="wrapper">
+
+        <!-- Main -->
+        <main id="main">
+        <div class="inner">
+          <header id="header">
+            <a href="index.html" class="logo"><strong>{% if title %} {{title}} {% else %}Σύλλογος Ζωοδόχος Πηγή{% endif %} </strong></a>
+            <ul class="icons">
+              <li><a href="https://www.facebook.com/silogosPsalidiou" class="icon brands fa-facebook-f" target="_blank"><span class="label">Facebook</span></a></li>
+              <li><a href="https://www.instagram.com/psalidiamarousiou" class="icon brands fa-instagram" target="_blank"><span class="label">Instagram</span></a></li>
+              <li><a href="mailto:psalidiamarousiou@gmail.com" class="icon fa-envelope"><span class="label">email</span></a></li>
+            </ul>
+          </header>
+            {{ layoutContent | safe }}
+        </div>
+      </main>
+      <aside id="sidebar" class="inactive">
+        <div class="inner">
+            <section id="search" class="alt">
+              <img src="/assets/slider/logo.png" alt="" style="max-width: 60%">
+              <h3>ΖΩΟΔΟΧΟΣ ΠΗΓΗ</h3>
+            </section>
+              {% include "nav.njk" %}
+            <footer id="footer">
+              <p class="copyright">&copy; ΖΩΟΔΟΧΟΣ ΠΗΓΗ.</p>
+            </footer>
+        </div>
+      </aside>
+    </div>
+  </body>
+</html>
