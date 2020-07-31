@@ -3,7 +3,7 @@ backend:
   branch: master
   repo: dgrammatiko/psalidi
 
-site_url: https://quirky-haibt-91d945.netlify.com
+site_url: https://psalidiamarousiou.gr
 
 publish_mode: editorial_workflow
 
