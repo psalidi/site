@@ -1,7 +1,7 @@
 const htmlmin = require('html-minifier');
 const fs = require('fs');
-const {DateTime} = require('luxon');
-const {slugify} = require('transliteration');
+const { DateTime } = require('luxon');
+const { slugify } = require('transliteration');
 const CleanCSS = require('clean-css');
 
 module.exports = function (eleventyConfig) {
@@ -23,12 +23,12 @@ module.exports = function (eleventyConfig) {
   });
 
   eleventyConfig.addFilter('readableDate', (dateObj) => {
-    return DateTime.fromJSDate(dateObj, {zone: 'utc'}).toFormat('dd LLL yyyy');
+    return DateTime.fromJSDate(dateObj, { zone: 'utc' }).toFormat('dd LLL yyyy');
   });
 
   // https://html.spec.whatwg.org/multipage/common-microsyntaxes.html#valid-date-string
   eleventyConfig.addFilter('htmlDateString', (dateObj) => {
-    return DateTime.fromJSDate(dateObj, {zone: 'utc'}).toFormat('yyyy-LL-dd');
+    return DateTime.fromJSDate(dateObj, { zone: 'utc' }).toFormat('yyyy-LL-dd');
   });
 
   // Get the first `n` elements of a collection.

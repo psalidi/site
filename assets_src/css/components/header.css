@@ -13,6 +13,7 @@
   list-style-type: none;
   margin: 0 0 0 auto;
   padding: 0 !important;
+  margin-right: .8rem;
 }
 
 .social > li a {
@@ -70,4 +71,5 @@
 .burger:hover {
   background-color: var(--primary);
   color: var(--secondary-bg);
+  border-radius: 0;
 }

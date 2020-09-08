@@ -8,62 +8,58 @@ permalink: "/contact/index.html"
 
   <div id="grid__content">
     <div id="card">
-      <form class="form" action="post" method="post">
+      <form class="form" action="https://formsubmit.co/your@email.com" method="POST"/>
+      <h1 id="title">Αίτηση Μέλους</h1>
 
-        <h1 id="title">Αίτηση Μέλους</h1>
+      <div class="signup__field">
+        <label for="first_name" class="label">Όνομα</label>
+        <input type="text" name="first_name" id="first_name" class="input-field" autofocus="autofocus">
+      </div>
 
-        <div class="signup__field">
-          <label for="first_name" class="label">Όνομα</label>
-          <input type="text" name="first_name" id="first_name" class="input-field" autofocus>
-        </div>
+      <div class="signup__field">
+        <label for="last_name" class="label">Επώνυμο</label>
+        <input type="text" name="last_name" id="last_name" class="input-field">
+      </div>
 
-         <div class="signup__field">
-          <label for="last_name" class="label">Επώνυμο</label>
-          <input type="text" name="last_name" id="last_name" class="input-field" >
-        </div>
+      <div class="signup__field">
+        <label for="father_name" class="label">Πατρώνυμο</label>
+        <input type="text" name="father_name" id="father_name" class="input-field">
+      </div>
 
-         <div class="signup__field">
-          <label for="father_name" class="label">Πατρώνυμο</label>
-          <input type="text" name="father_name" id="father_name" class="input-field" >
-        </div>
+      <div class="signup__field">
+        <label for="address" class="label">Διεύθυνση</label>
+        <input type="text" name="address" id="address" class="input-field">
+      </div>
 
-         <div class="signup__field">
-          <label for="address" class="label">Διεύθυνση</label>
-          <input type="text" name="address" id="address" class="input-field" >
-        </div>
+      <div class="signup__field">
+        <label for="tel_home" class="label">Τηλέφωνο κατοικίας</label>
+        <input type="text" name="tel_home" id="tel_home" class="input-field">
+      </div>
 
-         <div class="signup__field">
-          <label for="tel_home" class="label">Τηλέφωνο κατοικίας</label>
-          <input type="text" name="tel_home" id="tel_home" class="input-field" >
-        </div>
+      <div class="signup__field">
+        <label for="mobile" class="label">Κινητό τηλέφωνο</label>
+        <input type="text" name="mobile" id="mobile" class="input-field">
+      </div>
 
-         <div class="signup__field">
-          <label for="mobile" class="label">Κινητό τηλέφωνο</label>
-          <input type="text" name="mobile" id="mobile" class="input-field" >
-        </div>
+      <div class="signup__field">
+        <label for="email" class="label">Email</label>
+        <input type="email" name="email" id="email" class="input-field">
+      </div>
 
-         <div class="signup__field">
-          <label for="email" class="label">Email</label>
-          <input type="text" name="email" id="email" class="input-field" >
-        </div>
+      <div class="signup__button">
+        <button id="submit" class="button" type="submit">Αποστολη</button>
+      </div>
 
-        <div class="signup__amazing">
-          <input type="checkbox" id="amazing" name="amazing">
-          <label for="amazing">Αποδοχή όρων</label>
-        </div>
-
-        <div class="signup__button">
-          <button id="submit" class="button" type="submit">Αποστολη</button>
-        </div>
-
-      </form>
-    </div>
+      <input type="hidden" name="_subject" value="Νέα Αίτηση">
+      <input type="hidden" name="_template" value="box">
+      <input type="hidden" name="_next" value="https://yourdomain.co/thanks.html">
+    </form>
   </div>
-
-  <div></div>
-
 </div>
 
+<div></div>
+
+</div>
 
 <style>
 /**
@@ -104,59 +100,17 @@ permalink: "/contact/index.html"
 * Flex components
 ********************************************
 */
-/**
-* button
-*/
-button {
-  -webkit-tap-highlight-color: transparent;
-  background-color: transparent;
-  border: none;
-  border-radius: 2px;
-  transition: all 0.7s cubic-bezier(0.25, 0.8, 0.25, 1);
-  user-select: none;
-  color: rgba(0, 0, 0, 0.87);
-  display: inline-block;
-  font-size: 14px;
-  font-weight: 500;
-  height: 36px;
-  letter-spacing: 0.01em;
-  line-height: 36px;
-  margin: 14px 8px 8px 8px;
-  min-width: 88px;
-  outline: none;
-  overflow: hidden;
-  padding: 0 8px;
-  position: relative;
-  text-align: center;
-  text-decoration: none;
-  text-overflow: ellipsis;
-  vertical-align: middle;
-  white-space: nowrap;
-}
-button:not([disabled]) {
-  box-shadow: none;
-  cursor: pointer;
-}
-button[disabled] {
-  color: rgba(0, 0, 0, 0.38);
-  pointer-events: none;
-}
-button.raised {
-  box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 3px 1px -2px rgba(0, 0, 0, 0.12);
-  background-color: #fafafa;
-}
-button.raised:active {
-  box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 3px 1px -2px rgba(0, 0, 0, 0.12);
-}
+
 /**
 * card
 */
 #card {
   padding: 8px;
   background-color: white;
-  box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 3px 1px -2px rgba(0, 0, 0, 0.12);
-  -moz-box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 3px 1px -2px rgba(0, 0, 0, 0.12);
-  -webkit-box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 3px 1px -2px rgba(0, 0, 0, 0.12);
+  margin-bottom: 10rem;
+  box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12);
+  -moz-box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12);
+  -webkit-box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12);
   transition: box-shadow 0.6s ease;
 }
 @media (min-width: 960px) {
@@ -165,9 +119,9 @@ button.raised:active {
   }
 }
 #card:hover {
-  box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2), 0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
-  -moz-box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2), 0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
-  -webkit-box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2), 0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+  box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.2), 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12);
+  -moz-box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.2), 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12);
+  -webkit-box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.2), 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12);
 }
 /**
 ********************************************
@@ -193,7 +147,6 @@ form.form {
   padding: 8px;
 }
 .form > .signup__field label {
-  font-size: 12px;
   font-weight: bold;
   padding-bottom: 3px;
 }
@@ -224,7 +177,7 @@ form.form {
   align-self: center;
   min-width: 70%;
   border: none;
-  box-shadow: 0px 0px 0px 2px #E0E0E0;
+  box-shadow: 0 0 0 2px #E0E0E0;
   transition: box-shadow 0.6s ease;
   padding: 10px;
   margin-top: 20px;
@@ -236,9 +189,9 @@ form.form {
   display: flex;
   flex-flow: column;
 }
-.form > fieldset .signup__field > label,
 .form > fieldset .signup__field > .label,
-.form > fieldset .signup__field > .select-field {
+.form > fieldset .signup__field > .select-field,
+.form > fieldset .signup__field > label {
   flex: auto;
   align-self: center;
 }
@@ -255,16 +208,16 @@ form.form {
 .form > fieldset .signup__field > .label {
   font-weight: bold;
 }
-.form > fieldset .signup__field > .select-field,
-.form > fieldset .signup__field > .field__radio-inputs {
-  margin: 12px 0;
+.form > fieldset .signup__field > .field__radio-inputs,
+.form > fieldset .signup__field > .select-field {
+  margin: 1rem 0;
 }
 .form > fieldset .signup__field > .field__radio-inputs {
   flex: auto;
   align-self: center;
 }
 .form > .signup__amazing {
-  margin-top: 10px;
+  margin-top: 0.9rem;
   flex: auto;
   align-self: center;
 }
@@ -274,223 +227,6 @@ form.form {
 }
 .form > .signup__button {
   flex: auto;
-  align-self: flex-end;
+  align-self: center;
 }
-/**
-********************************************
-* Layout colors
-********************************************
-*/
-/**
-* (default) pink color
-*/
-html.pink {
-  animation: fill--pink 2s ease-in-out alternate infinite;
-}
-@keyframes fill--pink {
-  from {
-    background-color: #df88b4;
-  }
-  to {
-    background-color: #ca3782;
-  }
-}
-button.pink:hover {
-  background-color: rgba(252, 81, 133, 0.12);
-}
-button.pink:active {
-  background-color: rgba(252, 81, 133, 0.25);
-}
-h1.pink::after {
-  content: '  ❤';
-  margin-left: 5px;
-  color: #ca3782;
-  animation: pulse-pink 2s ease alternate infinite;
-}
-@keyframes pulse-pink {
-  100% {
-    margin-left: 0.5px;
-    color: rgba(252, 81, 133, 0.35);
-  }
-}
-input.pink:hover {
-  border-bottom: 2px solid #df88b4;
-}
-input.pink:focus {
-  background-color: #ffffff;
-  border-bottom: 2px solid #ca3782;
-}
-fieldset.pink:hover {
-  box-shadow: 0px 0px 0px 4px #ca3782;
-}
-/**
-* red color
-*/
-html.red {
-  animation: fill--red 2s ease-in-out alternate infinite;
-}
-@keyframes fill--red {
-  from {
-    background-color: #ffe7e7;
-  }
-  to {
-    background-color: #ff7070;
-  }
-}
-button.red:hover {
-  background-color: rgba(255, 0, 0, 0.12);
-}
-button.red:active {
-  background-color: rgba(255, 0, 0, 0.25);
-}
-h1.red::after {
-  content: '  ❤';
-  margin-left: 5px;
-  color: red;
-  animation: pulse-red 2s ease alternate infinite;
-}
-@keyframes pulse-red {
-  100% {
-    margin-left: 0.5px;
-    color: rgba(255, 0, 0, 0.35);
-  }
-}
-input.red:hover {
-  border-bottom: 2px solid red;
-}
-input.red:focus {
-  background-color: #ffe7e7;
-  border-bottom: 2px solid red;
-}
-fieldset.red:hover {
-  box-shadow: 0px 0px 0px 4px red;
-}
-/**
-* green color
-*/
-html.green {
-  animation: fill--green 2s ease-in-out alternate infinite;
-}
-@keyframes fill--green {
-  from {
-    background-color: #e8ffe8;
-  }
-  to {
-    background-color: green;
-  }
-}
-button.green:hover {
-  background-color: rgba(0, 128, 0, 0.12);
-}
-button.green:active {
-  background-color: rgba(0, 128, 0, 0.25);
-}
-h1.green::after {
-  content: '  ❤';
-  margin-left: 5px;
-  color: green;
-  animation: pulse-green 2s ease alternate infinite;
-}
-@keyframes pulse-green {
-  100% {
-    margin-left: 0.5px;
-    color: rgba(0, 128, 0, 0.35);
-  }
-}
-input.green:hover {
-  border-bottom: 2px solid green;
-}
-input.green:focus {
-  background-color: #e8ffe8;
-  border-bottom: 2px solid green;
-}
-fieldset.green:hover {
-  box-shadow: 0px 0px 0px 4px green;
-}
-/**
-* blue color
-*/
-html.blue {
-  animation: fill--blue 2s ease-in-out alternate infinite;
-}
-@keyframes fill--blue {
-  from {
-    background-color: #e7e7ff;
-  }
-  to {
-    background-color: blue;
-  }
-}
-button.blue:hover {
-  background-color: rgba(0, 0, 255, 0.12);
-}
-button.blue:active {
-  background-color: rgba(0, 0, 255, 0.25);
-}
-h1.blue::after {
-  content: '  ❤';
-  margin-left: 5px;
-  color: blue;
-  animation: pulse-blue 2s ease alternate infinite;
-}
-@keyframes pulse-blue {
-  100% {
-    margin-left: 0.5px;
-    color: rgba(0, 0, 255, 0.35);
-  }
-}
-input.blue:hover {
-  border-bottom: 2px solid blue;
-}
-input.blue:focus {
-  background-color: #e7e7ff;
-  border-bottom: 2px solid blue;
-}
-fieldset.blue:hover {
-  box-shadow: 0px 0px 0px 4px blue;
-}
-/**
-* purple color
-*/
-html.purple {
-  animation: fill--purple 2s ease-in-out alternate infinite;
-}
-@keyframes fill--purple {
-  from {
-    background-color: #ffe8ff;
-  }
-  to {
-    background-color: purple;
-  }
-}
-button.purple:hover {
-  background-color: rgba(128, 0, 128, 0.12);
-}
-button.purple:active {
-  background-color: rgba(128, 0, 128, 0.25);
-}
-h1.purple::after {
-  content: '  ❤';
-  margin-left: 5px;
-  color: purple;
-  animation: pulse-purple 2s ease alternate infinite;
-}
-@keyframes pulse-purple {
-  100% {
-    margin-left: 0.5px;
-    color: rgba(128, 0, 128, 0.35);
-  }
-}
-input.purple:hover {
-  border-bottom: 2px solid purple;
-}
-input.purple:focus {
-  background-color: #ffe8ff;
-  border-bottom: 2px solid purple;
-}
-fieldset.purple:hover {
-  box-shadow: 0px 0px 0px 4px purple;
-}
-
-
 </style>

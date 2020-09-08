@@ -1,88 +1,71 @@
 ---
+title: Εξωραϊστικός & Πολιτιστικός Σύλλογος Ψαλιδίου Αμαρουσίου "Ζωοδόχος Πηγή"
 layout: base.njk
 ---
-{% set listview %}
-  {% include "../assets/css/components/listview.min.css" %}
-{% endset %}
-{% set slider %}
-  {% include "../assets/css/components/slider.min.css" %}
-{% endset %}
-{% set leaf %}
-  {% include "../assets/css/components/leaflet.min.css" %}
-{% endset %}
+{% set listview %}{% include "../assets/css/components/listview.min.css" %}{% endset %}
+{% set slider %}{% include "../assets/css/components/slider.min.css" %}{% endset %}
+{% set leaf %}{% include "../assets/css/components/leaflet.min.css" %}{% endset %}
 <style>
-  {{ listview | cssmin | safe }}
-  {{ slider | cssmin | safe }}
-  {{ leaf | cssmin | safe }}
+  {{listview | cssmin | safe}}
+  {{slider | cssmin | safe}}
+  {{leaf | cssmin | safe}}
 </style>
 
-
 <script type="module" src="/assets/js/slider.min.js"></script>
-
-<script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"
-  integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew=="
-  crossorigin=""></script>
+<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" crossorigin=""></script>
 
 <section class="cols-2">
   <div class="content">
     <header>
-      <h1>ΖΩΟΔΟΧΟΣ ΠΗΓΗ</h1>
+      <h1>{{title}}</h1>
     </header>
     <p>Ο Σύλλογός μας έχει πλούσια ιστορία μιας και δραστηριοποιείται στην περιοχή από το 1959. Στην πολυετή πορεία του, ασχολήθηκε με τα μεγάλα προβλήματα που αντιμετωπίζουν οι περιοχές, οι οποίες εντάσσονται στο σχέδιο πόλεως, χωρίς προηγουμένως να έχει ληφθεί μέριμνα από την πολιτεία, ώστε να έχουν κατασκευαστεί οι απαραίτητες υποδομές</p>
     <p></p>
-    <a href="/syllogos/" class="button">Περισσοτερα</a>
+    <a href="/syllogos/" class="button">Περισσότερα</a>
   </div>
   <span class="image object">
     <custom-slider id="ideal-image-slider" class="image" style="margin-top: 2rem">
-      <img data-src="/assets/slider/1.jpg" alt="Slide 1" />
-      <img data-src="/assets/slider/2.jpg" alt="Slide 2" />
-      <img data-src="/assets/slider/3.jpg" alt="Slide 4" />
+      <img data-src="/assets/slider/1.jpg" alt="Slide 1"/>
+      <img data-src="/assets/slider/2.jpg" alt="Slide 2"/>
+      <img data-src="/assets/slider/3.jpg" alt="Slide 4"/>
     </custom-slider>
   </span>
 </section>
 
-{% set postslist = collections.drastiriotites | head(-4) %}
+<section>
+  {% set postslist = collections.drastiriotites | head(-4) %}
   <header class="g-center">
-    <h2 class="g-center">Πρόσφατα δημοσιεύματα</h2>
+    <h2>Πρόσφατα δημοσιεύματα</h2>
   </header>
   <div class="posts">
-  {%- for latest in postslist | reverse -%}
-    <article class="box">
-      <a href="{{ latest.url }}" title="{{ latest.data.title }}" class="image">
-        {%- if (latest.data.image) -%}
-          <img loading="lazy" data-src="{{ latest.data.image }}" alt={{latest.data.imageAlt}}/>
-        {%- endif -%}
-      </a>
-      <time class="postlist-date" datetime="{{ latest.data.date | htmlDateString }}">{{ latest.data.date | readableDate }}</time>
-      <h3>
-        <a href="{{ latest.url }}" title="{{ latest.data.title }}" class="image">{{ latest.data.title }}</a>
-      </h3>
-      <p>{{latest.data.description}}</p>
-    </article>
-{%- endfor -%}
+    {% for latest in postslist | reverse %}
+      <article class="box">
+        <div class="placeholder">
+          <img loading="lazy" src="data:image/svg+xml;base64,PHN2ZyBhcmlhLWhpZGRlbj0idHJ1ZSIgZm9jdXNhYmxlPSJmYWxzZSIgZGF0YS1wcmVmaXg9ImZhciIgZGF0YS1pY29uPSJpbWFnZSIgY2xhc3M9InN2Zy1pbmxpbmUtLWZhIGZhLWltYWdlIGZhLXctMTYiIHJvbGU9ImltZyIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2aWV3Qm94PSIwIDAgNTEyIDUxMiI+PHBhdGggZmlsbD0iY3VycmVudENvbG9yIiBkPSJNNDY0IDY0SDQ4QzIxLjQ5IDY0IDAgODUuNDkgMCAxMTJ2Mjg4YzAgMjYuNTEgMjEuNDkgNDggNDggNDhoNDE2YzI2LjUxIDAgNDgtMjEuNDkgNDgtNDhWMTEyYzAtMjYuNTEtMjEuNDktNDgtNDgtNDh6bS02IDMzNkg1NGE2IDYgMCAwIDEtNi02VjExOGE2IDYgMCAwIDEgNi02aDQwNGE2IDYgMCAwIDEgNiA2djI3NmE2IDYgMCAwIDEtNiA2ek0xMjggMTUyYy0yMi4wOTEgMC00MCAxNy45MDktNDAgNDBzMTcuOTA5IDQwIDQwIDQwIDQwLTE3LjkwOSA0MC00MC0xNy45MDktNDAtNDAtNDB6TTk2IDM1MmgzMjB2LTgwbC04Ny41MTUtODcuNTE1Yy00LjY4Ni00LjY4Ni0xMi4yODQtNC42ODYtMTYuOTcxIDBMMTkyIDMwNGwtMzkuNTE1LTM5LjUxNWMtNC42ODYtNC42ODYtMTIuMjg0LTQuNjg2LTE2Ljk3MSAwTDk2IDMwNHY0OHoiPjwvcGF0aD48L3N2Zz4=" {% if latest.data.image %} data-src="{{ latest.data.image }}" alt="{{ latest.data.imageAlt }}" {% endif %}/>
+        </div>
+        <time class="postlist-date" datetime="{{ latest.data.date | htmlDateString }}">📅
+          {{ latest.data.date | readableDate }}</time>
+        <h3>
+          <a href="{{ latest.url }}" title="{{ latest.data.title }}" class="image">{{ latest.data.title }}</a>
+        </h3>
+        <p>{{latest.data.description}}</p>
+      </article>
+    {% endfor %}
   </div>
 </section>
 
 <div id="map" style="height: 360px; border: 1px solid #AAA;"></div>
-
-  <leaflet-map
-    longitude="23.78997"
-    latitude="38.04762"
-    zoom="19">
-  </leaflet-map>
-
 <script>
-//https://www.openstreetmap.org/?mlat=38.04762&mlon=23.78997#map=17/38.04762/23.78997&layers=CN
-var map = L.map( 'map', {
-  center: [38.04762, 23.78997],
-  minZoom: 10,
-  zoom: 19,
-
-})
-
-L.tileLayer( 'http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-  attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
-  subdomains: ['a', 'b', 'c']
-}).addTo( map )
-
+  var map = L
+    .map('map')
+    .setView([
+      38.04762, 23.78997
+    ], 18);
+  L
+    .tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
+      maxZoom: 19,
+      minZoom: 10
+    })
+    .addTo(map)
 </script>

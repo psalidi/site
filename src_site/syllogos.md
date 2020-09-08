@@ -1,6 +1,6 @@
 ---
-title: Καταστατικό συλλόγου
-description: Καταστατικό συλλόγου
+title: Καταστατικό Συλλόγου
+description: Καταστατικό Συλλόγου
 date: 2015-02-18T16:54:05+00:00
 layout: layouts/syllogos.njk
 permalink: "/syllogos/index.html"
