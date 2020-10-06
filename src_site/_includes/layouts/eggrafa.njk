@@ -18,7 +18,7 @@ permalink: "/eggrafa/{{title | transliterate}}/index.html"
         {{ layoutContent | safe }}
 
         {%- if (attachment) -%}
-        <object data="/assets/uploads/images/{{attachment}}" height="1200px" style="width: 100%;min-height: 100%;"></object>
+        <object data="{{site.url}}/assets/uploads/images/{{attachment}}" height="1200px" style="width: 100%;min-height: 100%;"></object>
         {%- endif -%}
         
       </article>
