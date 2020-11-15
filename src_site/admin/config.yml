@@ -1,7 +1,7 @@
 backend:
   name: git-gateway
   branch: master
-  repo: dgrammatiko/psalidi
+  repo: psalidi/site
 
 site_url: https://psalidiamarousiou.gr
 
