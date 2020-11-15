@@ -38,12 +38,6 @@ collections: # A list of collections the CMS should be able to edit
           default: 'layouts/apo-ypiresies.njk',
         }
       - {
-          label: 'Tags',
-          name: 'tags',
-          widget: 'select',
-          options: ['apo-ypiresies', 'pros-ypiresies'],
-        }
-      - {
           label: 'Publish Date',
           name: 'date',
           widget: 'datetime',
@@ -92,12 +86,6 @@ collections: # A list of collections the CMS should be able to edit
           default: 'layouts/apo-ypiresies.njk',
         }
       - {
-          label: 'Tags',
-          name: 'tags',
-          widget: 'select',
-          options: ['apo-ypiresies', 'pros-ypiresies'],
-        }
-      - {
           label: 'Publish Date',
           name: 'date',
           widget: 'datetime',
@@ -144,12 +132,6 @@ collections: # A list of collections the CMS should be able to edit
           name: 'layout',
           widget: 'hidden',
           default: 'layouts/apo-ypiresies.njk',
-        }
-      - {
-          label: 'Tags',
-          name: 'tags',
-          widget: 'select',
-          options: ['apo-ypiresies', 'pros-ypiresies'],
         }
       - {
           label: 'Publish Date',
