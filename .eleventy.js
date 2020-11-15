@@ -72,11 +72,11 @@ module.exports = function (eleventyConfig) {
     return content;
   });
 
-  eleventyConfig.setFrontMatterParsingOptions({
-    excerpt: true,
-    // Optional, default is "---"
-    excerpt_separator: "<!-- excerpt -->"
-  });
+  // eleventyConfig.setFrontMatterParsingOptions({
+  //   excerpt: true,
+  //   // Optional, default is "---"
+  //   excerpt_separator: "<!-- excerpt -->"
+  // });
 
   eleventyConfig.addPassthroughCopy('src_site/js', 'live/js');
   eleventyConfig.addPassthroughCopy('src_site/css', 'live/css');

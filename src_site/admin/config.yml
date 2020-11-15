@@ -153,6 +153,13 @@ collections: # A list of collections the CMS should be able to edit
           tagname: '',
         }
       - {
+          label: 'Υπότιτλος',
+          name: 'excerpt',
+          widget: 'markdown',
+          minimal: true,
+          hint: 'Main content goes here.',
+        }
+      - {
           editorComponents: ['image'],
           label: 'Body',
           name: 'body',
