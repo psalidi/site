@@ -59,6 +59,13 @@ collections: # A list of collections the CMS should be able to edit
           tagname: '',
         }
       - {
+          label: 'Υπότιτλος',
+          name: 'description',
+          widget: 'markdown',
+          minimal: true,
+          hint: 'Main content goes here.',
+        }
+      - {
           editorComponents: ['image'],
           label: 'Body',
           name: 'body',
@@ -104,6 +111,13 @@ collections: # A list of collections the CMS should be able to edit
           widget: 'image',
           required: false,
           tagname: '',
+        }
+      - {
+          label: 'Υπότιτλος',
+          name: 'description',
+          widget: 'markdown',
+          minimal: true,
+          hint: 'Main content goes here.',
         }
       - {
           editorComponents: ['image'],
@@ -154,7 +168,7 @@ collections: # A list of collections the CMS should be able to edit
         }
       - {
           label: 'Υπότιτλος',
-          name: 'excerpt',
+          name: 'description',
           widget: 'markdown',
           minimal: true,
           hint: 'Main content goes here.',
