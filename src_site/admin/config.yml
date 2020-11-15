@@ -66,6 +66,13 @@ collections: # A list of collections the CMS should be able to edit
           widget: 'markdown',
           hint: 'Main content goes here.',
         }
+      - {
+          label: 'Attachment',
+          name: 'attachment',
+          widget: 'image',
+          required: false,
+          tagname: '',
+        }
 
   - name: 'drastiriotites' # Used in routes, ie.: /admin/collections/:slug/edit
     label: 'Δραστηριότητες' # Used in the UI
@@ -114,6 +121,13 @@ collections: # A list of collections the CMS should be able to edit
           widget: 'markdown',
           hint: 'Main content goes here.',
         }
+      - {
+          label: 'Attachment',
+          name: 'attachment',
+          widget: 'image',
+          required: false,
+          tagname: '',
+        }
 
   - name: 'dimosieymata' # Used in routes, ie.: /admin/collections/:slug/edit
     label: 'Δημοσιεύματα' # Used in the UI
@@ -161,6 +175,13 @@ collections: # A list of collections the CMS should be able to edit
           name: 'body',
           widget: 'markdown',
           hint: 'Main content goes here.',
+        }
+      - {
+          label: 'Attachment',
+          name: 'attachment',
+          widget: 'image',
+          required: false,
+          tagname: '',
         }
 
   - label: 'Globals'
