@@ -3,7 +3,7 @@ title: Eκτακτη συνεδρίαση του Δ.Σ. την Δευτέρα 19
 layout: layouts/drastiriotites.njk
 date: 2016-12-19T08:47:18+00:00
 description: Eκτακτη συνεδρίαση του Δ.Σ. την Δευτέρα 19/12/2016 ώρα 20.30 μ.μ
-tags: apo-ypiresies
+tags: eggrafa
 ---
 Αγαπητά Μέλη του Δ.Σ
 

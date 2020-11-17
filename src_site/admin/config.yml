@@ -35,7 +35,7 @@ collections: # A list of collections the CMS should be able to edit
           label: 'Layout',
           name: 'layout',
           widget: 'hidden',
-          default: 'layouts/apo-ypiresies.njk',
+          default: 'layouts/eggrafa.njk',
         }
       - {
           label: 'Publish Date',
@@ -90,7 +90,7 @@ collections: # A list of collections the CMS should be able to edit
           label: 'Layout',
           name: 'layout',
           widget: 'hidden',
-          default: 'layouts/apo-ypiresies.njk',
+          default: 'layouts/drastiriotites.njk',
         }
       - {
           label: 'Publish Date',
@@ -145,7 +145,7 @@ collections: # A list of collections the CMS should be able to edit
           label: 'Layout',
           name: 'layout',
           widget: 'hidden',
-          default: 'layouts/apo-ypiresies.njk',
+          default: 'layouts/eggrafa.njk',
         }
       - {
           label: 'Publish Date',
