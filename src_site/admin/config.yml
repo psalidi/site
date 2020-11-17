@@ -26,7 +26,7 @@ collections: # A list of collections the CMS should be able to edit
       The description is a great place for tone setting, high level information, and editing
       guidelines that are specific to a collection.
     folder: 'src_site/eggrafa'
-    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    slug: '{{slug}}'
     summary: '{{title}}'
     create: true # Allow users to create new documents in this collection
     fields: # The fields each document in this collection have
@@ -81,7 +81,7 @@ collections: # A list of collections the CMS should be able to edit
       The description is a great place for tone setting, high level information, and editing
       guidelines that are specific to a collection.
     folder: 'src_site/drastiriotites'
-    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    slug: '{{slug}}'
     summary: '{{title}}'
     create: true # Allow users to create new documents in this collection
     fields: # The fields each document in this collection have
@@ -136,7 +136,7 @@ collections: # A list of collections the CMS should be able to edit
       The description is a great place for tone setting, high level information, and editing
       guidelines that are specific to a collection.
     folder: 'src_site/dimosieymata'
-    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    slug: '{{slug}}'
     summary: '{{title}}'
     create: true # Allow users to create new documents in this collection
     fields: # The fields each document in this collection have
