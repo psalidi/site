@@ -4,6 +4,7 @@ layout: layouts/eggrafa.njk
 date: 2020-05-27T12:25:00.000Z
 image: /assets/uploads/images/texnikothema.jpg
 description: ΤΕΧΝΙΚΑ ΠΡΟΒΛΗΜΑΤΑ ΣΤΟ ΨΑΛΙΔΙ
+attachment: /assets/uploads/images/επιστολη_οτε_δικτυο_ψαλιδιου.pdf
 ---
 Επισυνάπτουμε επιστολή του Συλλόγου μας, σχετικά με τα τεχνικά προβλήματα που παρουσιάζονται στις οικιακές συνδέσεις στην περιοχή του Ψαλιδίου.
 
