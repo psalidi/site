@@ -69,7 +69,7 @@ collections: # A list of collections the CMS should be able to edit
       - {
           label: 'Attachment',
           name: 'attachment',
-          widget: 'image',
+          widget: 'file',
           required: false,
           tagname: '',
         }
@@ -124,7 +124,7 @@ collections: # A list of collections the CMS should be able to edit
       - {
           label: 'Attachment',
           name: 'attachment',
-          widget: 'image',
+          widget: 'file',
           required: false,
           tagname: '',
         }
