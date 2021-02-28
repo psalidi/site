@@ -52,6 +52,15 @@ a.image:hover img {
     grid-template-columns: repeat(1, 1fr);
     grid-row-end: revert;
   }
+  .cols-3 {
+    grid-template-columns: repeat(2, minmax(200px, 1fr));
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .cols-3 {
+    grid-template-columns: repeat(1, 1fr);
+  }
 }
 
 .g-center {
