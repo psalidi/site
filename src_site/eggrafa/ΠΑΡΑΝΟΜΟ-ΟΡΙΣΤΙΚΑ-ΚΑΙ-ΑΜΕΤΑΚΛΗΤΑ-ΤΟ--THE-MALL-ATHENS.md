@@ -4,8 +4,7 @@ description: ΠΑΡΑΝΟΜΟ ΟΡΙΣΤΙΚΑ ΚΑΙ ΑΜΕΤΑΚΛΗΤΑ ΤΟ 
 tags: eggrafa
 date: 2015-12-07T10:36:31+00:00
 layout: layouts/drastiriotites.njk
-tags:
-  - "Αρχείο"
+
 ---
 
 <!-- excerpt -->

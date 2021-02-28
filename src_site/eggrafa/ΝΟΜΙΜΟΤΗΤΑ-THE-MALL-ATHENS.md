@@ -4,8 +4,7 @@ description: ΝΟΜΙΜΟΤΗΤΑ THE MALL ATHENS
 tags: eggrafa
 date: 2015-06-08T05:19:25+00:00
 layout: layouts/drastiriotites.njk
-tags:
-  - "Από υπηρεσίες"
+
 attachment:
   - MALL.pdf
 ---

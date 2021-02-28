@@ -4,8 +4,7 @@ description: ΑΠΟΦΑΣΗ ΣΤΕ ΓΙΑ ΤΟ MALL
 tags: eggrafa
 date: 2015-12-02T06:33:46+00:00
 layout: layouts/drastiriotites.njk
-tags:
-  - "Αρχείο"
+
 ---
 
 ΣΧΕΤΙΚΑ ΜΕ ΤΟΝ ΤΡΟΠΟ ΕΚΔΟΣΗΣ ΟΙΚΟΔΟΜΙΚΗΣ ΑΔΕΙΑΣ 391/2008

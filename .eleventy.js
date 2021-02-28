@@ -33,7 +33,7 @@ module.exports = function (eleventyConfig) {
 
   // Get only content that matches a tag
   eleventyConfig.addCollection("frontPage", function(collectionApi) {
-    return collectionApi.getFilteredByTags("eggrafa", "travel", "photo");
+    return collectionApi.getFilteredByTags("eggrafa", "drastiriotites");
   });
 
   // Get the first `n` elements of a collection.

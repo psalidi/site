@@ -4,8 +4,7 @@ description: ΟΤΕ ACADEMY  ΚΑΙ ΕΑΠ
 tags: eggrafa
 date: 2015-12-07T10:59:44+00:00
 layout: layouts/drastiriotites.njk
-tags:
-  - "Αρχείο"
+
 ---
 
 <!-- excerpt -->
