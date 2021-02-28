@@ -8,7 +8,6 @@ site_url: https://psalidiamarousiou.gr
 publish_mode: editorial_workflow
 
 media_folder: src_site/assets/uploads/images
-
 public_folder: /assets/uploads/images
 
 locale: 'gr'
@@ -197,9 +196,8 @@ collections: # A list of collections the CMS should be able to edit
       - {
           label: 'Attachment',
           name: 'attachment',
-          widget: 'image',
-          required: false,
-          tagname: '',
+          widget: 'file',
+          required: false
         }
 
   - label: 'Globals'
