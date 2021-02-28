@@ -7,6 +7,15 @@
   margin: 0 1em 1em 1em;
 }
 
+.cols-3 {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(200px, 1fr));
+}
+
+.cols-3 > * {
+  margin: 0 1em 1em 1em;
+}
+
 a.image {
   overflow: hidden;
 }

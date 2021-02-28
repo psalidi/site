@@ -33,11 +33,11 @@ layout: base.njk
 </section>
 
 <section>
-  {% set postslist = collections.drastiriotites | head(-4) %}
+  {% set postslist = collections.drastiriotites | head(-9) %}
   <header class="g-center">
     <h2>Πρόσφατα δημοσιεύματα</h2>
   </header>
-  <div class="posts">
+  <div class="cols-3">
     {% for latest in postslist | reverse %}
       <article class="box">
         <div class="placeholder">
