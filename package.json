@@ -4,12 +4,14 @@
   "description": "Psalidi Site",
   "main": "index.js",
   "scripts": {
-    "build": "node ./.processCss.js && node ./.processCss.js && npx eleventy build"
+    "build": "node ./.processCss.js && node ./.processCss.js && npx eleventy build",
+    "update:db": "npx browserslist@latest --update-db"
+
   },
   "author": "Dimitris Grammatikogiannis",
   "license": "MIT",
   "devDependencies": {
-    "@11ty/eleventy": "0.10.0",
+    "@11ty/eleventy": "0.11.1",
     "@rollup/plugin-babel": "^5.0.4",
     "@rollup/plugin-node-resolve": "^8.4.0",
     "@rollup/plugin-replace": "^2.3.3",
@@ -51,7 +53,7 @@
   "dependencies": {
     "ce-theme-switcher": "0.0.3",
     "get-google-fonts": "^1.2.2",
-    "naf-css": "git://github.com/dgrammatiko/naf-css.git#0.7",
+    "naf-css": "git://github.com/dgrammatiko/naf-css.git",
     "redaxios": "^0.3.0",
     "uhtml": "^1.9.0"
   }

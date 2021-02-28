@@ -2,7 +2,7 @@ module.exports = ctx => ({
   plugins: {
     // 'postcss-import': {},
     'postcss-easy-import': {
-      extensions: '.pcss'
+      extensions: '.css'
     },
     'postcss-inline-svg': {},
     'postcss-mixins': {},

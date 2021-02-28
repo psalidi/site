@@ -1,6 +1,6 @@
 @import '_variables';
-@import 'naf-css/src/base';
-@import 'naf-css/src/forms/button.pcss';
+@import 'naf-css/src/base.css';
+@import 'naf-css/src/elements/button.css';
 
 /* cyrillic-ext */
 @font-face {
