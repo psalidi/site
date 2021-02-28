@@ -1,7 +1,8 @@
 ---
 title: "ΕΚΔΡΟΜΗ ΜΕ ΤΟΝ ΣΥΛΛΟΓΟ ΣΤΗΝ ΚΑΣΤΟΡΙΑ "
 layout: layouts/eggrafa.njk
-tags: drastiriotites
+tags:
+  - drastiriotites
 date: 2020-01-29T16:04:52.565Z
 image: /assets/uploads/images/kastoria.png
 description: 13-15 ΜΑΡΤΙΟΥ 2020

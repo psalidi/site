@@ -1,7 +1,8 @@
 ---
 title: ΑΚΥΡΩΣΗ ΤΗΣ ΕΚΔΡΟΜΗΣ ΤΟΥ ΣΥΛΛΟΓΟΥ ΣΤΗΝ ΚΑΣΤΟΡΙΑ ΛΟΓΩ ΚΟΡΩΝΟΪΟΥ
 layout: layouts/eggrafa.njk
-tags: drastiriotites
+tags:
+  - drastiriotites
 date: 2020-03-07T16:13:23.344Z
 image: /assets/uploads/images/kastoria.png
 description: ΜΕΤΡΑ ΑΣΦΑΛΕΙΑΣ

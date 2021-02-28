@@ -1,7 +1,8 @@
 ---
 title: ΘΕΑΤΡΙΚΗ ΠΑΡΑΣΤΑΣΗ
 layout: layouts/eggrafa.njk
-tags: drastiriotites
+tags:
+  - drastiriotites
 date: 2020-02-17T15:54:54.048Z
 image: /assets/uploads/images/img_1820.jpg
 description: ΚΥΡΙΑΚΗ 23 ΦΕΒΡΟΥΑΡΙΟΥ 2020, ΩΡΑ 6:30 Μ.Μ.

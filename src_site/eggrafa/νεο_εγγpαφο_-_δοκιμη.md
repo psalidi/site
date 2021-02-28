@@ -1,7 +1,8 @@
 ---
 title: ΝΕΟ ΕΓΓΡΑΦΟ - ΔΟΚΙΜΗ
 layout: layouts/eggrafa.njk
-tags: eggrafa
+tags:
+  - eggrafa
 date: 2021-02-28T15:48:42.176Z
 image: /assets/uploads/images/anakoinosi.jpg
 description: ΔΟΚΙΜΑΖΟΥΜΕ ΤΟΝ ΥΠΟΤΙΤΛΟ

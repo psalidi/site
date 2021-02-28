@@ -1,7 +1,8 @@
 ---
 title: Ote academy
 description: Ote academy
-tags: eggrafa
+tags:
+  - eggrafa
 date: 2015-02-18T16:54:05+00:00
 layout: layouts/drastiriotites.njk
 attachment:

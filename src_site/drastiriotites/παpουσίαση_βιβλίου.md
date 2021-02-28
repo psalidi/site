@@ -1,7 +1,8 @@
 ---
 title: "ΠΑΡΟΥΣΙΑΣΗ ΒΙΒΛΙΟΥ "
 layout: layouts/eggrafa.njk
-tags: drastiriotites
+tags:
+  - drastiriotites
 date: 2020-01-13T15:23:09.426Z
 image: /assets/uploads/images/parousiasivivliou.jpg
 description: ΠΑΡΑΣΚΕΥΗ 17 ΙΑΝΟΥΑΡΙΟΥ 2020, ΩΡΑ 7:30 Μ.Μ.

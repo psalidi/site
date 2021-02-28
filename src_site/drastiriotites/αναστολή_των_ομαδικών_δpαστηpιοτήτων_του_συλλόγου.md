@@ -1,7 +1,8 @@
 ---
 title: ΑΝΑΣΤΟΛΗ ΤΩΝ ΟΜΑΔΙΚΩΝ ΔΡΑΣΤΗΡΙΟΤΗΤΩΝ ΤΟΥ ΣΥΛΛΟΓΟΥ
 layout: layouts/drastiriotites.njk
-tags: drastiriotites
+tags:
+  - drastiriotites
 date: 2020-11-01T14:39:16.975Z
 image: /assets/uploads/images/anakoinosi.jpg
 description: "**ΙΣΧΥΣ ΑΠΟ ΤΗΝ ΤΡΙΤΗ 3 ΝΟΕΜΒΡΙΟΥ 2020**"

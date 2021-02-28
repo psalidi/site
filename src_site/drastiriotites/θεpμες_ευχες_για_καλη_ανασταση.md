@@ -1,7 +1,8 @@
 ---
 title: ΘΕΡΜΕΣ ΕΥΧΕΣ ΓΙΑ ΚΑΛΗ ΑΝΑΣΤΑΣΗ
 layout: layouts/eggrafa.njk
-tags: drastiriotites
+tags:
+  - drastiriotites
 date: 2020-04-13T15:18:22.874Z
 image: /assets/uploads/images/kartasyllogou1.jpg
 description: ΜΕΝΟΥΜΕ ΣΠΙΤΙ ΑΥΤΟ ΤΟ ΠΑΣΧΑ

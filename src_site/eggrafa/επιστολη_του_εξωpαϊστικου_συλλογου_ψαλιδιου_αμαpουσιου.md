@@ -1,7 +1,8 @@
 ---
 title: ΕΠΙΣΤΟΛΗ ΤΟΥ ΕΞΩΡΑΪΣΤΙΚΟΥ ΣΥΛΛΟΓΟΥ ΨΑΛΙΔΙΟΥ ΑΜΑΡΟΥΣΙΟΥ
 layout: layouts/eggrafa.njk
-tags: eggrafa
+tags:
+  - eggrafa
 date: 2020-05-27T12:25:00.000Z
 image: /assets/uploads/images/texnikothema.jpg
 description: ΤΕΧΝΙΚΑ ΠΡΟΒΛΗΜΑΤΑ ΣΤΟ ΨΑΛΙΔΙ

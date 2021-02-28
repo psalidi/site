@@ -1,7 +1,8 @@
 ---
 title: ΑΠΟΦΑΣΗ ΣΤΕ ΓΙΑ ΤΟ MALL
 description: ΑΠΟΦΑΣΗ ΣΤΕ ΓΙΑ ΤΟ MALL
-tags: eggrafa
+tags:
+  - eggrafa
 date: 2015-12-02T06:33:46+00:00
 layout: layouts/drastiriotites.njk
 

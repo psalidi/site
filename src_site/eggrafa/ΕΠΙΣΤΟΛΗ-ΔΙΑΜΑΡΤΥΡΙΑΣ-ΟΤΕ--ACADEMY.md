@@ -1,7 +1,8 @@
 ---
 title: ΕΠΙΣΤΟΛΗ ΔΙΑΜΑΡΤΥΡΙΑΣ ΟΤΕ  ACADEMY
 description: ΕΠΙΣΤΟΛΗ ΔΙΑΜΑΡΤΥΡΙΑΣ ΟΤΕ  ACADEMY
-tags: eggrafa
+tags:
+  - eggrafa
 date: 2015-11-18T05:32:41+00:00
 layout: layouts/drastiriotites.njk
 

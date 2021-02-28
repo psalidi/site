@@ -32,8 +32,10 @@ module.exports = function (eleventyConfig) {
   });
 
   // Get only content that matches a tag
-  eleventyConfig.addCollection("frontPage", function(collectionApi) {
-    return collectionApi.getFilteredByTags("eggrafa", "drastiriotites");
+  eleventyConfig.addCollection("tags", function(collection) {
+    const dr = collection.getFilteredByGlob([`src_site/drastiriotites/*.md`]);
+    const eg = collection.getFilteredByGlob([`src_site/eggrafa/*.md`]);
+    return [...dr, ...eg];
   });
 
   // Get the first `n` elements of a collection.

@@ -1,7 +1,8 @@
 ---
 title: OI ΠΑΡΑΤΗΡΗΣΕΙΣ ΤΟΥ Δ.Σ. ΠΡΟΣ ΤΟ ΔΗΜΟ
 description: OI ΠΑΡΑΤΗΡΗΣΕΙΣ ΤΟΥ Δ.Σ. ΠΡΟΣ ΤΟ ΔΗΜΟ
-tags: eggrafa
+tags:
+  - eggrafa
 date: 2015-12-15T06:12:12+00:00
 layout: layouts/drastiriotites.njk
 ---

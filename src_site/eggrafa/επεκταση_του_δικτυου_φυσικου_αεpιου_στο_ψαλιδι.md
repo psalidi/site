@@ -1,7 +1,8 @@
 ---
 title: ΕΠΕΚΤΑΣΗ ΤΟΥ ΔΙΚΤΥΟΥ ΦΥΣΙΚΟΥ ΑΕΡΙΟΥ ΣΤΟ ΨΑΛΙΔΙ
 layout: layouts/eggrafa.njk
-tags: eggrafa
+tags:
+  - eggrafa
 date: 2020-05-29T11:51:00.000Z
 image: /assets/uploads/images/fysikoaerio.jpg
 description: ΦΥΣΙΚΟ ΑΕΡΙΟ

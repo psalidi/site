@@ -1,7 +1,8 @@
 ---
 title: Eκτακτη συνεδρίαση του Δ.Σ. την Δευτέρα 19/12/2016 ώρα 20.30 μ.μ
 layout: layouts/drastiriotites.njk
-tags: drastiriotites
+tags:
+  - drastiriotites
 date: 2016-12-19T08:47:18+00:00
 description: Eκτακτη συνεδρίαση του Δ.Σ. την Δευτέρα 19/12/2016 ώρα 20.30 μ.μ
 ---

@@ -1,7 +1,8 @@
 ---
 title: ΕΟΡΤΑΣΜΟΣ ΤΗΣ ΠΑΝΑΓΙΑΣ ΖΩΟΔΟΧΟΥ ΠΗΓΗΣ
 layout: layouts/eggrafa.njk
-tags: drastiriotites
+tags:
+  - drastiriotites
 date: 2020-04-23T15:39:42.118Z
 image: /assets/uploads/images/zoodochospigi.jpg
 description: ΧΡΟΝΙΑ ΠΟΛΛΑ ΑΠΟ ΤΟ ΨΑΛΙΔΙ

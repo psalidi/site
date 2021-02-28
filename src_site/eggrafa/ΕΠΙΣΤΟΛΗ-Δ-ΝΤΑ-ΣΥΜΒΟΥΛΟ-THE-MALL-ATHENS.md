@@ -1,7 +1,8 @@
 ---
 title: ΕΠΙΣΤΟΛΗ Δ/ΝΤΑ ΣΥΜΒΟΥΛΟ THE MALL ATHENS
 description: ΕΠΙΣΤΟΛΗ Δ/ΝΤΑ ΣΥΜΒΟΥΛΟ THE MALL ATHENS
-tags: eggrafa
+tags:
+  - eggrafa
 date: 2017-03-27T09:27:53+00:00
 layout: layouts/drastiriotites.njk
 

@@ -2,7 +2,8 @@
 title: ΠΡΟΣΚΛΗΣΗ ΣΤΗΝ ΟΜΙΛΙΑ ΤΟΥ ΙΑΤΡΟΥ κ. ΚΩΝ/ΝΟΥ ΣΙΑΦΑ ΜΕ ΘΕΜΑ «Η ΑΒΕΒΑΙΟΤΗΤΑ
   ΣΤΗΝ ΙΑΤΡΙΚΗ ΠΡΑΞΗ»
 layout: layouts/eggrafa.njk
-tags: drastiriotites
+tags:
+  - drastiriotites
 date: 2020-01-23T15:26:09.502Z
 image: /assets/uploads/images/prosklisiomiliaiatrousiafa.jpg
 description: ΠΑΡΑΣΚΕΥΗ 31 ΙΑΝΟΥΑΡΙΟΥ 2020, ΩΡΑ 7:00 Μ.Μ.
