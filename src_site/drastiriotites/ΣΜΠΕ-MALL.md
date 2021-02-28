@@ -1,6 +1,7 @@
 ---
 title: ΣΜΠΕ MALL
 description: ΣΜΠΕ MALL
+tags: drastiriotites
 date: 2016-11-29T07:48:46+00:00
 layout: layouts/drastiriotites.njk
 ---

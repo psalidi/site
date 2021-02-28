@@ -31,6 +31,11 @@ module.exports = function (eleventyConfig) {
     return DateTime.fromJSDate(dateObj, { zone: 'utc' }).toFormat('yyyy-LL-dd');
   });
 
+  // Get only content that matches a tag
+  eleventyConfig.addCollection("frontPage", function(collectionApi) {
+    return collectionApi.getFilteredByTags("eggrafa", "travel", "photo");
+  });
+
   // Get the first `n` elements of a collection.
   eleventyConfig.addFilter('head', (array, n) => {
     if (n < 0) {

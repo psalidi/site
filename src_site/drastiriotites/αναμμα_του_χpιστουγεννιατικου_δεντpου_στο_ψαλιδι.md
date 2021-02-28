@@ -1,6 +1,7 @@
 ---
 title: ΑΝΑΜΜΑ ΤΟΥ ΧΡΙΣΤΟΥΓΕΝΝΙΑΤΙΚΟΥ ΔΕΝΤΡΟΥ ΣΤΟ ΨΑΛΙΔΙ
 layout: layouts/eggrafa.njk
+tags: drastiriotites
 date: 2019-12-10T14:50:44.749Z
 image: /assets/uploads/images/anamaxristougenniatikoudentrou2019.jpg
 description: ΚΥΡΙΑΚΗ 15 ΔΕΚΕΜΒΡΙΟΥ 2019, ΩΡΑ 19:00 ΣΤΗΝ ΠΛΑΤΕΙΑ ΖΩΟΔΟΧΟΥ ΠΗΓΗΣ

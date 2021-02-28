@@ -1,6 +1,7 @@
 ---
 title: ΕΠΙΣΤΟΛΗ ΠΡΟΣ ΤΟ MALL
 description: ΕΠΙΣΤΟΛΗ ΠΡΟΣ ΤΟ MALL
+tags: eggrafa
 date: 2015-12-02T06:31:31+00:00
 layout: layouts/drastiriotites.njk
 tags:

@@ -1,6 +1,7 @@
 ---
 title: Συζήτηση στο Δημοτικό Συμβούλιο για τηΣΜΠΕ του MALL.
 description: Συζήτηση στο Δημοτικό Συμβούλιο για τηΣΜΠΕ του MALL.
+tags: drastiriotites
 date: 2016-12-07T11:47:00+00:00
 layout: layouts/drastiriotites.njk
 ---

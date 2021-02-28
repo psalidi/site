@@ -1,6 +1,7 @@
 ---
 title: ΠΛΑΤΕΙΑ ΔΙΠΛΑ ΣΤΟ  THE MALL
 description: ΠΛΑΤΕΙΑ ΔΙΠΛΑ ΣΤΟ  THE MALL
+tags: eggrafa
 date: 2015-12-02T06:37:20+00:00
 layout: layouts/drastiriotites.njk
 tags:

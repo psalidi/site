@@ -1,6 +1,7 @@
 ---
 title: ΕΠΕΚΤΑΣΗ ΤΟΥ ΔΙΚΤΥΟΥ ΦΥΣΙΚΟΥ ΑΕΡΙΟΥ ΣΤΟ ΨΑΛΙΔΙ
 layout: layouts/drastiriotites.njk
+tags: drastiriotites
 date: 2020-05-29T11:56:00.000Z
 image: /assets/uploads/images/fysikoaerio.jpg
 description: ΦΥΣΙΚΟ ΑΕΡΙΟ

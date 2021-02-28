@@ -1,6 +1,7 @@
 ---
 title: Χριστουγεννιάτικος στολισμός στο Ψαλίδι
 layout: layouts/drastiriotites.njk
+tags: drastiriotites
 date: 2020-11-26T18:42:00.000Z
 image: /assets/uploads/images/anamma1_261120.jpg
 description: "2020"

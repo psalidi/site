@@ -1,6 +1,7 @@
 ---
 title: ΣΗΜΑΝΤΙΚΗ ΕΞΕΛΙΞΗ ΣΤΗ ΔΙΑΔΙΚΑΣΙΑ ΝΟΜΙΜΟΠΟΙΗΣΗΣ ΤΟΥ MALL
 layout: layouts/eggrafa.njk
+tags: eggrafa
 date: 2020-10-06T09:06:00.000Z
 image: /assets/uploads/images/mall.jpg
 description: Μελέτη Περιβαλλοντικών Επιπτώσεων (ΜΠΕ)

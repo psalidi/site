@@ -1,6 +1,7 @@
 ---
 title: ΚΕΡΑΙΑ ΟΤΕ - ΟΤΕ  ACADEMY
 description: ΚΕΡΑΙΑ ΟΤΕ - ΟΤΕ  ACADEMY
+tags: eggrafa
 date: 2015-12-07T10:37:52+00:00
 layout: layouts/drastiriotites.njk
 tags:

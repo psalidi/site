@@ -1,6 +1,7 @@
 ---
 title: ΠΡΟΣΚΛΗΣΗ ΣΤΗ ΔΙΑΛΕΞΗ ΜΕ ΘΕΜΑ «ΤΑ ΔΥΟ ΦΥΛΑ, ΣΤΗ ΖΩΗ ΚΑΙ ΤΟΝ ΕΡΩΤΑ»
 layout: layouts/eggrafa.njk
+tags: drastiriotites
 date: 2020-02-06T15:33:45.119Z
 image: /assets/uploads/images/omiliaagiouvalentinou.jpg
 description: ΠΑΡΑΣΚΕΥΗ 14 ΦΕΒΡΟΥΑΡΙΟΥ 2020, ΩΡΑ 7:30 Μ.Μ.

@@ -1,6 +1,7 @@
 ---
 title: ΕΠΑΝΕΝΑΡΞΗ ΔΡΑΣΤΗΡΙΟΤΗΤΩΝ ΣΥΛΛΟΓΟΥ
 layout: layouts/drastiriotites.njk
+tags: drastiriotites
 date: 2020-10-08T16:43:00.000Z
 image: /assets/uploads/images/anakoinosi.jpg
 description: ΓΙΑ ΤΗΝ ΠΕΡΙΟΔΟ 2020-2021

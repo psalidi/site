@@ -1,6 +1,7 @@
 ---
 title: ΙΣΤΟΡΙΚΗ ΑΠΟΦΑΣΗ ΤΟΥ ΔΗΜΟΤΙΚΟΥ ΣΥΜΒΟΥΛΙΟΥ ΑΜΑΡΟΥΣΙΟΥ ΓΙΑ ΤΟ ΧΕΥ ΚΥΜΗΣ
 layout: layouts/drastiriotites.njk
+tags: drastiriotites
 date: 2020-06-30T16:28:00.000Z
 image: /assets/uploads/images/xey142.jpg
 description: Κοινόχρηστος χώρος πρασίνου και ενεργητικής αναψυχής

@@ -1,10 +1,10 @@
 ---
 title: ΑΠΟΤΕΛΕΣΜΑΤΑ ΣΥΝΑΝΤΗΣΗΣ ΜΕ ΔΙΟΙΚΗΣΗ ΟΤΕΑcademy
 description: ΑΠΟΤΕΛΕΣΜΑΤΑ ΣΥΝΑΝΤΗΣΗΣ ΜΕ ΔΙΟΙΚΗΣΗ ΟΤΕΑcademy
+tags: eggrafa
 date: 2016-03-01T10:06:15+00:00
 layout: layouts/drastiriotites.njk
-tags:
-  - "Προς υπηρεσίες"
+
 ---
 
 <!-- excerpt -->

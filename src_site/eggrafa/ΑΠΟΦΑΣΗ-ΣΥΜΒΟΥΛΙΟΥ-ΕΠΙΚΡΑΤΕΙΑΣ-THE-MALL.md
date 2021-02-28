@@ -1,6 +1,7 @@
 ---
 title: ΑΠΟΦΑΣΗ ΣΥΜΒΟΥΛΙΟΥ ΕΠΙΚΡΑΤΕΙΑΣ THE MALL
 description: ΑΠΟΦΑΣΗ ΣΥΜΒΟΥΛΙΟΥ ΕΠΙΚΡΑΤΕΙΑΣ THE MALL
+tags: eggrafa
 date: 2015-02-19T13:02:01+00:00
 layout: layouts/dimosieymata.njk
 ---

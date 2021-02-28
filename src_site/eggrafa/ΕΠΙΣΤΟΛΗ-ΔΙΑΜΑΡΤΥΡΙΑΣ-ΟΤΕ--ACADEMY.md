@@ -1,10 +1,10 @@
 ---
 title: ΕΠΙΣΤΟΛΗ ΔΙΑΜΑΡΤΥΡΙΑΣ ΟΤΕ  ACADEMY
 description: ΕΠΙΣΤΟΛΗ ΔΙΑΜΑΡΤΥΡΙΑΣ ΟΤΕ  ACADEMY
+tags: eggrafa
 date: 2015-11-18T05:32:41+00:00
 layout: layouts/drastiriotites.njk
-tags:
-  - "Προς υπηρεσίες"
+
 ---
 
 Διαμαρτυρία για ορισμό από την Δημοτική Αρχή των χώρων της OTE ACADEMY για την βράβευση των αριστούχων μαθητών

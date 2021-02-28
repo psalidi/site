@@ -1,10 +1,9 @@
 ---
 title: The MALL  Athens
 description: The MALL  Athens
+tags: eggrafa
 date: 2015-02-18T16:08:35+00:00
 layout: layouts/drastiriotites.njk
-tags:
-  - 'Προς υπηρεσίες'
 image: //assets/uploads/images/ada9a09acea936d776a6f55c82778c43.jpg
 ---
 
