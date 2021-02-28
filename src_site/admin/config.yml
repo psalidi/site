@@ -5,7 +5,7 @@ backend:
 
 site_url: https://psalidiamarousiou.gr
 
-# publish_mode: editorial_workflow
+publish_mode: editorial_workflow
 
 media_folder: src_site/assets/uploads/images
 
