@@ -27,6 +27,10 @@
     {
       "text": "Επικοινωνία",
       "url": "/contact/"
+    },
+    {
+      "text": "test",
+      "url": "/test/"
     }
   ]
 }
