@@ -5,7 +5,7 @@ date: 2015-02-18T16:54:05+00:00
 layout: layouts/syllogos.njk
 permalink: "/syllogos/index.html"
 ---
-## ΑΝΑΘΕΩΡΗΣΗ ΚΑΤΑΣΤΑΤΙΚΟΥ
+## ΚΑΤΑΣΤΑΤΙΚΟ ΣΥΛΛΟΓΟΥ
 
 ### ΑΡΘΡΟ 1ο 
 #### ΕΠΩΝΥΜΙΑ ΣΥΛΛΟΓΟΥ
