@@ -6,7 +6,6 @@
   "scripts": {
     "build": "node ./.processCss.js && node ./.processCss.js && npx eleventy build",
     "update:db": "npx browserslist@latest --update-db"
-
   },
   "author": "Dimitris Grammatikogiannis",
   "license": "MIT",
@@ -53,6 +52,7 @@
   "dependencies": {
     "ce-theme-switcher": "0.0.3",
     "get-google-fonts": "^1.2.2",
+    "modern-css-reset": "^1.4.0",
     "naf-css": "git://github.com/dgrammatiko/naf-css.git",
     "redaxios": "^0.3.0",
     "uhtml": "^1.9.0"

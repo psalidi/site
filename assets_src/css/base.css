@@ -101,8 +101,8 @@ a[href^='mailto:']:before {
   align-items: center;
   width: 100%;
   min-height: 400px;
-  background: rgba(0,0,0,.15);
-  border: 1px solid rgba(0,0,0,.1);
+  background: rgba(255,255,255,.15);
+  border: 1px solid rgba(255,255,255,.1);
 }
 .placeholder img {
   width: 25%;
