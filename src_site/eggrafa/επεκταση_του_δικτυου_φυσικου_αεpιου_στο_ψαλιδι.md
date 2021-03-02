@@ -5,7 +5,7 @@ tags:
   - eggrafa
 date: 2020-05-29T11:51:00.000Z
 image: /assets/uploads/images/fysikoaerio.jpg
-description: ΦΥΣΙΚΟ ΑΕΡΙΟ
+description: Φυσικό Αέριο
 ---
 Όπως γνωρίζετε, ο Σύλλογός μας έχει αναλάβει πρωτοβουλία για την επέκταση του δικτύου φυσικού αερίου σε όλο το Ψαλίδι. 
 
