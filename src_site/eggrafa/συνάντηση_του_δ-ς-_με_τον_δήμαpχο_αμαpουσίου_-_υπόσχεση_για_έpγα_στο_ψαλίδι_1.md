@@ -4,6 +4,7 @@ layout: layouts/eggrafa.njk
 tags:
   - eggrafa
 date: 2020-12-12T14:26:54.966Z
+image: /assets/uploads/images/synantisimedimarxo.jpg
 description: Πέμπτη 5 Νοεμβρίου 2020
 attachment: /assets/uploads/images/δελτιο_τυπου_συναντηση_με_δημαpχο_051120.pdf
 ---
