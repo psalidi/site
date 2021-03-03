@@ -3,7 +3,7 @@ title: ΠΑΡΑΤΗΡΗΣΕΙΣ ΤΟΥ  ΣΥΛΛΟΓΟΥ ΨΑΛΙΔΙΟΥ ΓΙΑ
 layout: layouts/eggrafa.njk
 tags: eggrafa
 date: 2020-11-01T17:24:38.174Z
-image: /assets/uploads/images/diavoulefsitexnikouprogrammatos2021.jpg
+image: /assets/uploads/images/texnikoprogramma2021.jpg
 description: Πέμπτη 29 Οκτωβρίου 2020
 attachment: /assets/uploads/images/επιστολη_διαβουλ_τπ21_291020_ψαλιδι.pdf
 ---
