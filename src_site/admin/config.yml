@@ -8,7 +8,7 @@ site_url: https://psalidiamarousiou.gr
 publish_mode: editorial_workflow
 
 media_folder: src_site/assets/uploads/images
-public_folder: /assets/uploads/images
+public_folder: "/assets/uploads/images"
 
 locale: 'gr'
 
@@ -76,7 +76,6 @@ collections: # A list of collections the CMS should be able to edit
           name: 'attachment',
           widget: 'file',
           required: false,
-          tagname: '',
         }
 
   - name: 'drastiriotites' # Used in routes, ie.: /admin/collections/:slug/edit
@@ -137,7 +136,6 @@ collections: # A list of collections the CMS should be able to edit
           name: 'attachment',
           widget: 'file',
           required: false,
-          tagname: '',
         }
 
   - name: 'dimosieymata' # Used in routes, ie.: /admin/collections/:slug/edit
