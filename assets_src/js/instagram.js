@@ -1,11 +1,14 @@
-import axios from 'redaxios/dist/redaxios.module';
+// import axios from 'redaxios/dist/redaxios.module';
 
 const instagramRegExp = new RegExp(
   /<script type="text\/javascript">window\._sharedData = (.*);<\/script>/
 );
 
 const fetchInstagramPhotos = async (accountUrl) => {
-  const response = await axios.get(accountUrl);
+  const response = await fetch(accountUrl, {
+    method: 'HEAD',
+    mode: 'no-cors',
+  });
   const json = JSON.parse(response.data.match(instagramRegExp)[1]);
   const edges = json.entry_data.ProfilePage[0].graphql.user.edge_owner_to_timeline_media.edges.splice(
     0,
