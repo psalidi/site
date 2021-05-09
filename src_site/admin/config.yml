@@ -240,3 +240,15 @@ collections: # A list of collections the CMS should be able to edit
               - {label: 'Facebook', name: 'facebook', widget: 'string'}
               - {label: 'Instagram', name: 'instagram', widget: 'string'}
               - {label: 'Email', name: 'email', widget: 'string'}
+      - label: 'Δ.Σ. Συλλόγου'
+        name: 'dss'
+        delete: false
+        file: 'src_site/_data/dss.json'
+        fields:
+          - label: 'Μέλη'
+            name: 'items'
+            widget: 'list'
+            fields:
+              - {label: 'Ονομα/μο', name: 'name', widget: 'string', required: true }
+              - {label: 'Περιγραφή', name: 'desc', widget: 'string', required: true }
+              - {label: 'Φωτο', name: 'image', widget: 'image', required: false}
