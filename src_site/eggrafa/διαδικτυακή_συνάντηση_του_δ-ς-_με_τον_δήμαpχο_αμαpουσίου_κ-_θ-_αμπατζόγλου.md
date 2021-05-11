@@ -4,7 +4,7 @@ layout: layouts/eggrafa.njk
 tags: eggrafa
 date: 2021-04-20T08:23:23.043Z
 image: /assets/uploads/images/img_5305.jpg
-description: 14.04.2021
+description: Τετάρτη 14 Απριλίου 2021
 attachment: /assets/uploads/images/ενημ_διαδικτυακη_συναντηση_με_δημαpχο_140421.pdf
 ---
 <!--StartFragment-->
