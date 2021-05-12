@@ -28,7 +28,7 @@
     "html-minifier": "4.0.0",
     "i": "^0.3.6",
     "luxon": "^1.22.2",
-    "postcss": "^7.0.27",
+    "postcss": "^8.2.10",
     "postcss-cli": "^7.1.0",
     "postcss-combine-media-query": "^1.0.1",
     "postcss-custom-media": "^7.0.8",
