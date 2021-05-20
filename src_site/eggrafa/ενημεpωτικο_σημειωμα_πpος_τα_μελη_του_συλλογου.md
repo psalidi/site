@@ -4,7 +4,7 @@ layout: layouts/eggrafa.njk
 tags: eggrafa
 date: 2021-04-17T18:33:25.642Z
 image: /assets/uploads/images/img_5401_2_.jpg
-description: ΔΙΑΔΙΚΤΥΑΚΗ ΣΥΝΑΝΤΗΣΗ ΜΕ ΤΟΝ ΔΗΜΑΡΧΟ ΑΜΑΡΟΥΣΙΟΥ
+description: Διαδικτυακή συνάντηση με τον Δήμαρχο Αμαρουσίου, κ. Θ. Αμπατζόγλου
 attachment: /assets/uploads/images/ενημ_διαδικτυακη_συναντηση_με_δημαpχο_140421.pdf
 ---
 <!--StartFragment-->
