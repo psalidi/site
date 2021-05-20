@@ -3,7 +3,7 @@ title: ΔΙΑΔΙΚΤΥΑΚΗ ΣΥΝΑΝΤΗΣΗ ΤΟΥ Δ.Σ. ΜΕ ΤΟΝ ΔΗ�
 layout: layouts/eggrafa.njk
 tags: eggrafa
 date: 2021-04-14T08:23:23.043Z
-image: /assets/uploads/images/img_5305.jpg
+image: /assets/uploads/images/img_5402.jpg
 description: Τετάρτη 14 Απριλίου 2021
 attachment: /assets/uploads/images/ενημ_διαδικτυακη_συναντηση_με_δημαpχο_140421.pdf
 ---
