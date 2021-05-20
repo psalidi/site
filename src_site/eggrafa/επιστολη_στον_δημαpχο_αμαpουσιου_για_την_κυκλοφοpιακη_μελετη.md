@@ -2,7 +2,7 @@
 title: ΕΠΙΣΤΟΛΗ ΣΤΟΝ ΔΗΜΑΡΧΟ ΑΜΑΡΟΥΣΙΟΥ ΓΙΑ ΤΗΝ ΚΥΚΛΟΦΟΡΙΑΚΗ ΜΕΛΕΤΗ 7.10.2020
 layout: layouts/eggrafa.njk
 tags: eggrafa
-date: 2021-05-19T18:43:27.108Z
+date: 2020-10-07T18:43:27.108Z
 image: /assets/uploads/images/kykloforiakimeletipsalidi.jpg
 description: 7 ΟΚΤΩΒΡΙΟΥ 2020
 attachment: /assets/uploads/images/επιστολη_δημαpχο_για_κυκλοφ_μελετη_071020.pdf
