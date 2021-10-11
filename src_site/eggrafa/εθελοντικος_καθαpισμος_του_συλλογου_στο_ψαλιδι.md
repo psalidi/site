@@ -4,7 +4,7 @@ layout: layouts/eggrafa.njk
 tags: eggrafa
 date: 2021-07-02T11:12:12.402Z
 image: /assets/uploads/images/ethelontikoskatharismos2021-6.jpg
-description: ΠΑΡΑΣΚΕΥΗ 2 ΙΟΥΛΙΟΥ 2021
+description: Παρασκευή 2 Ιουλίου 2021
 attachment: /assets/uploads/images/ethelontikoskatharismos2021-2.jpg
 ---
 <!--StartFragment-->
