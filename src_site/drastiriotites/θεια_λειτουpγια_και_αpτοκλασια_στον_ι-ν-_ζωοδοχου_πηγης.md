@@ -3,6 +3,7 @@ title: ΘΕΙΑ ΛΕΙΤΟΥΡΓΙΑ ΚΑΙ ΑΡΤΟΚΛΑΣΙΑ ΣΤΟΝ Ι.Ν.
 layout: layouts/drastiriotites.njk
 tags: drastiriotites
 date: 2021-06-20T08:41:42.018Z
+image: /assets/uploads/images/anakoinosi.jpg
 description: ΚΥΡΙΑΚΗ 27 ΙΟΥΝΙΟΥ 2021
 attachment: /assets/uploads/images/ανακοινωση_αpτοκλασια_αγιογpαφια_27.6.2021.docx
 ---
