@@ -3,8 +3,9 @@ title: ΘΕΡΙΝΟ ΣΙΝΕΜΑ ΣΤΗΝ ΠΛΑΤΕΙΑ Ζ. ΠΗΓΗΣ
 layout: layouts/drastiriotites.njk
 tags: drastiriotites
 date: 2021-06-23T08:52:58.565Z
-image: /assets/uploads/images/cinema2021.jpg
+image: /assets/uploads/images/cinemain.jpg
 description: ΠΑΡΑΣΚΕΥΗ 26 ΙΟΥΝΙΟΥ 2021
+attachment: /assets/uploads/images/cinema2021.jpg
 ---
 <!--StartFragment-->
 
