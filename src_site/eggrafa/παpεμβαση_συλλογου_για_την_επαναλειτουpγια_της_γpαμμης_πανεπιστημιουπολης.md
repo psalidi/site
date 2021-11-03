@@ -5,6 +5,7 @@ tags: eggrafa
 date: 2021-10-07T21:08:22.322Z
 image: /assets/uploads/images/metakinisifoititwn.jpg
 description: Επιστολή - παρέμβαση
+attachment: /assets/uploads/images/επιστολη_πpος_δημο_για_μετακινηση_φοιτητων1.docx
 ---
 <!--StartFragment-->
 
