@@ -3,6 +3,7 @@ title: ΕΝΑΡΞΗ ΤΩΝ ΟΜΑΔΙΚΩΝ ΤΜΗΜΑΤΩΝ ΤΟΥ ΣΥΛΛΟΓ
 layout: layouts/drastiriotites.njk
 tags: drastiriotites
 date: 2021-10-02T20:57:17.513Z
+image: /assets/uploads/images/img_9670.jpg
 description: Ομαδικές δραστηριότητες συλλόγου 2021-2022
 ---
 <!--StartFragment-->
