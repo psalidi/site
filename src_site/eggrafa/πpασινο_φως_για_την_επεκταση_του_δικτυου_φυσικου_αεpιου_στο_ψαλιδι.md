@@ -4,7 +4,7 @@ layout: layouts/eggrafa.njk
 tags: eggrafa
 date: 2021-11-04T19:49:41.842Z
 image: /assets/uploads/images/photo_fysikoaerio.jpg
-description: ΦΥΣΙΚΟ ΑΕΡΙΟ
+description: Φυσικό αέριο
 ---
 <!--StartFragment-->
 
