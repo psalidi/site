@@ -1,5 +1,5 @@
 ---
-title: ΑΝΑΜΜΑ ΧΡΙΣΤΟΥΓΕΝΝΙΑΤΙΚΟΥ ΔΕΝΤΡΟΥ ΣΤΟ ΨΑΛΙΔΙ
+title: Άναμμα Χριστουγεννιάτικου Δέντρου στο Ψαλίδι
 layout: layouts/drastiriotites.njk
 tags: drastiriotites
 date: 2021-12-05T20:00:38.017Z
