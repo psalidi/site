@@ -1,9 +1,9 @@
-import {terser} from 'rollup-plugin-terser';
-import replace from '@rollup/plugin-replace';
-import {nodeResolve} from '@rollup/plugin-node-resolve';
-import fs from 'fs';
+const terser = require('@rollup/plugin-terser');
+const replace = require('@rollup/plugin-replace');
+const {nodeResolve}  = require('@rollup/plugin-node-resolve');
+const fs = require('fs');
 
-const pkgContent = JSON.parse(fs.readFileSync('./package.json', {encoding: 'utf8'}));
+const pkgContent = require('./package.json');
 
 module.exports = {
   output: {
@@ -13,6 +13,7 @@ module.exports = {
     replace({
       '{{version}}': pkgContent.version,
       delimiters: ['', ''],
+      preventAssignment: true
     }),
     nodeResolve(),
     terser(),

@@ -4,7 +4,8 @@
   "description": "Psalidi Site",
   "main": "index.js",
   "scripts": {
-    "build": "node ./.processCss.js && node ./.processCss.js && eleventy",
+    "build": "eleventy",
+    "dev": "eleventy --serve",
     "update:db": "npx browserslist@latest --update-db"
   },
   "author": "Dimitris Grammatikogiannis",
