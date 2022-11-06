@@ -8,7 +8,6 @@ module.exports = ctx => ({
     'postcss-mixins': {},
     'postcss-simple-vars': {},
     'postcss-nested': {},
-    'postcss-combine-media-query': {},
     'autoprefixer': {},
     cssnano: {},
   }

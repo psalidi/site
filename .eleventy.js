@@ -2,7 +2,6 @@ const htmlmin = require('html-minifier');
 const fs = require('fs');
 const { DateTime } = require('luxon');
 const { slugify } = require('transliteration');
-const CleanCSS = require('clean-css');
 
 module.exports = function (eleventyConfig) {
   eleventyConfig.setDataDeepMerge(true);
@@ -60,7 +59,7 @@ module.exports = function (eleventyConfig) {
   });
 
   eleventyConfig.addFilter('cssmin', function (code) {
-    return new CleanCSS({}).minify(code).styles;
+    return code; // new CleanCSS({}).minify(code).styles;
   });
 
   eleventyConfig.addFilter('transliterate', (text) => {
