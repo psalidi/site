@@ -840,7 +840,7 @@ class CustomSlider extends HTMLElement {
 
     connectedCallback() {
     this.slider = new IdealImageSlider.Slider({
-            selector: `#${this.id}`,
+      selector: `#${this.id}`,
 			height: '16:9', // "auto" | px value (e.g. 400) | aspect ratio (e.g. "16:9")
 			initialHeight: 500, // for "auto" and aspect ratio
 			maxHeight: null, // for "auto" and aspect ratio
