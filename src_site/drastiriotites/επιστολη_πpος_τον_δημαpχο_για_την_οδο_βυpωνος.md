@@ -3,6 +3,7 @@ title: ΕΠΙΣΤΟΛΗ ΠΡΟΣ ΤΟΝ ΔΗΜΑΡΧΟ ΓΙΑ ΤΗΝ ΟΔΟ ΒΥ
 layout: layouts/drastiriotites.njk
 tags: drastiriotites
 date: 2023-03-17T15:39:52.498Z
+image: /assets/uploads/images/οδός_βύpωνος.png
 description: ΑΝΑΒΑΘΜΙΣΗ ΟΔΟΥ ΒΥΡΩΝΟΣ  -  ΚΑΤΑΣΚΕΥΗ ΠΕΖΟΔΡΟΜΙΩΝ
 attachment: /assets/uploads/images/επιστολη_πpος_δημαpχο_για_οδο_βυpωνοσ.docx
 ---
